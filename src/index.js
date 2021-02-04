@@ -26,7 +26,8 @@ ReactDOM.render(
   birth={new Date("1992-07-14")}
   picture="https://randomuser.me/api/portraits/men/44.jpg"
   />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 )
 
 
@@ -81,4 +82,19 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+ReactDOM.render(
+  <React.StrictMode>
+    <LikeButton />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
+ReactDOM.render(
+  <React.StrictMode>
+    <ClickablePicture
+    img='/img/persons/maxence.png'
+    imgClicked='/img/persons/maxence-glasses.png'
+    />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

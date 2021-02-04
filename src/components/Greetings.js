@@ -1,7 +1,7 @@
 function Greetings(props){
   
     
-    {if(props.lang === "de"){
+    if(props.lang === "de"){
         return(
             <div className = "de">Hallo {props.children}</div>
         )
@@ -29,5 +29,5 @@ function Greetings(props){
             <div className = "es">Hola {props.children}</div>
         )
         }
-    }
+    
 }

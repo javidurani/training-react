@@ -1,6 +1,6 @@
 function IdCard(props){
     <div className = "id">
-        <img src = "https://randomuser.me/api/portraits/men/44.jpg"></img>
+        <img src = {props.image}/>
         <p className = "person">
             <div className = "lastName">Last Name: {props.lastName}</div>
             <div className = "firstName">First Name: {props.firstName}</div>
