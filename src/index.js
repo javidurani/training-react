@@ -98,3 +98,10 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Dice />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
